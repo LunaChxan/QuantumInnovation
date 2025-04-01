@@ -3,194 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QuantumInnovation - Leading Technology Solutions</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
-        }
-
-        :root {
-            --primary: #2c3e50;
-            --secondary: #3498db;
-            --accent: #e74c3c;
-            --light: #ecf0f1;
-        }
-
-        body {
-            line-height: 1.6;
-            color: #333;
-        }
-
-        .header {
-            background: var(--primary);
-            padding: 1rem;
-            position: fixed;
-            width: 100%;
-            z-index: 100;
-        }
-
-        .nav {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            color: white;
-            font-size: 1.5rem;
-            font-weight: bold;
-            text-decoration: none;
-        }
-
-        .nav-links {
-            list-style: none;
-            display: flex;
-            gap: 2rem;
-        }
-
-        .nav-links a {
-            color: white;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .nav-links a:hover {
-            color: var(--secondary);
-        }
-
-        .hero {
-            background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.9)), url('/api/placeholder/1920/1080');
-            background-size: cover;
-            background-position: center;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            color: white;
-            padding: 0 1rem;
-        }
-
-        .hero-content h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-
-        .hero-content p {
-            font-size: 1.2rem;
-            margin-bottom: 2rem;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .cta-button {
-            display: inline-block;
-            padding: 1rem 2rem;
-            background: var(--secondary);
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background 0.3s;
-        }
-
-        .cta-button:hover {
-            background: #2980b9;
-        }
-
-        .services {
-            padding: 5rem 1rem;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .section-title {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        .services-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-        }
-
-        .service-card {
-            padding: 2rem;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-        .service-card h3 {
-            margin: 1rem 0;
-            color: var(--primary);
-        }
-
-        .footer {
-            background: var(--primary);
-            color: white;
-            padding: 2rem 1rem;
-            text-align: center;
-        }
-
-        @media (max-width: 768px) {
-            .nav-links {
-                display: none;
-            }
-
-            .hero-content h1 {
-                font-size: 2rem;
-            }
-        }
-    </style>
+    <title>QuantumInnovation - HyperionV</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header">
-        <nav class="nav">
-            <a href="#" class="logo">QuantumInnovation</a>
-            <ul class="nav-links">
+    <header>
+        <h1>QuantumInnovation</h1>
+        <nav>
+            <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#founders">Founders</a></li>
+                <li><a href="#product">HyperionV</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="https://github.com/LunaChxan/QuantumInnovation" target="_blank">GitHub</a></li>
+                <li><a href="advanced_technologies.html">Advanced Technologies</a></li>
             </ul>
         </nav>
     </header>
-
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <h1>Welcome to QuantumInnovation</h1>
-            <p>Pioneering the future through cutting-edge technology solutions and innovative digital transformation.</p>
-            <a href="#contact" class="cta-button">Get Started</a>
-        </div>
+    
+    <section id="home">
+        <h2>Welcome to QuantumInnovation</h2>
+        <p>Revolutionizing the future of maritime logistics with AI, quantum computing, and sustainable energy.</p>
+        <div class="placeholder">[Image Placeholder]</div>
     </section>
-
-    <section class="services" id="services">
-        <h2 class="section-title">Our Services</h2>
-        <div class="services-grid">
-            <div class="service-card">
-                <h3>Quantum Computing</h3>
-                <p>Harnessing the power of quantum mechanics to solve complex computational problems.</p>
-            </div>
-            <div class="service-card">
-                <h3>AI Solutions</h3>
-                <p>Advanced artificial intelligence and machine learning solutions for your business needs.</p>
-            </div>
-            <div class="service-card">
-                <h3>Digital Transformation</h3>
-                <p>Comprehensive digital transformation strategies to modernize your business operations.</p>
-            </div>
-        </div>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At QuantumInnovation, we are redefining the future of maritime logistics. By combining cutting-edge AI-driven automation, quantum computing, and sustainable energy, we create revolutionary shipping solutions that prioritize speed, efficiency, and eco-consciousness.</p>
+        <p>Our mission is to disrupt traditional cargo transport with smarter, faster, and greener technology.</p>
+        <p>With a team of visionary engineers, AI specialists, and logistics experts, we are pioneering the next era of container shipping—one that reduces emissions, optimizes global trade routes, and leverages the power of advanced computing for real-time decision-making.</p>
+        <div class="placeholder">[Image Placeholder]</div>
     </section>
-
-    <footer class="footer">
+    
+    <section id="founders">
+        <h2>Founders</h2>
+        <ul>
+            <li>Harrald von Germany</li>
+            <li>Erish der Russe</li>
+            <li>Macks Bush</li>
+        </ul>
+        <img src="images/founders.jpg" alt="founders" class="image-style">
+    </section>
+    
+    <section id="product">
+        <h2>HyperionV – The Future of Cargo Transport</h2>
+        <p>HyperionV is a groundbreaking AI-powered, electric container vessel designed to revolutionize maritime logistics.</p>
+        <ul>
+            <li>?? <strong>Speed & Efficiency</strong> – Powered by advanced AI-driven navigation, HyperionV drastically reduces transit times.</li>
+            <li>? <strong>Fully Electric</strong> – No fossil fuels, no emissions. HyperionV is powered by clean energy.</li>
+            <li>?? <strong>Quantum AI Optimization</strong> – Utilizing quantum computing, HyperionV calculates the most efficient routes in real-time.</li>
+            <li>?? <strong>Scalability & Flexibility</strong> – A fleet of HyperionV vessels operates independently or in synchronized networks.</li>
+        </ul>
+        <div class="placeholder">[Image Placeholder]</div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@quantuminnovation.com</p>
+        <p>Phone: +123 456 7890</p>
+        <p>Address: 123 Future Way, Innovation City</p>
+    </section>
+    
+    <footer>
         <p>&copy; 2025 QuantumInnovation. All rights reserved.</p>
     </footer>
 </body>
